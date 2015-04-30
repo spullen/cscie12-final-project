@@ -11,13 +11,4 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/application.css" />
 </head>
 <body>
-<div class="grid-container">
-  <div class="grid-100">
-    <h1>Hello</h1>
-  </div>
-</div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-<script type="text/javascript" src="javascripts/pikaday.js"></script>
-<script type="text/javascript" src="javascripts/application.js"></script>
-</body>
-</html>
+<?php include 'includes/navigation.php' ?>
