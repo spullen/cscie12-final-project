@@ -1,3 +1,7 @@
+<?php
+  $title = 'Home';
+  $pageId = 'home';  
+?>
 <?php include 'includes/header.php' ?>
 <div class="grid-container">
   <div class="grid-100">
