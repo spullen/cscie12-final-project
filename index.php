@@ -1,5 +1,5 @@
 <?php include 'includes/header.php' ?>
-<div class="grid-container" style="border: 1px solid black">
+<div class="grid-container">
   <div class="grid-100">
     <h1>Hello</h1>
   </div>
