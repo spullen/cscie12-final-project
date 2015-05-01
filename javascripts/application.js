@@ -3,4 +3,6 @@ $(document).ready(function() {
   if(pageId !== '') {
     $('#nav-' + pageId).addClass('selected');
   }
+
+  $('.fancybox').fancybox();
 });

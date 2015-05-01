@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/text.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/unsemantic.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/pikaday.css" />
+  <link rel="stylesheet" type="text/css" href="stylesheets/jquery.fancybox.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="stylesheets/application.css" />
 </head>
 <body id="<?php echo $pageId; ?>">
