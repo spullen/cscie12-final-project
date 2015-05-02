@@ -11,6 +11,10 @@
 }
 
 .staff-profile {
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-bottom: 2em;
+}
+
+.staff-profile .image-container {
+  padding-top: 6px;
+  padding-bottom: 1em;
 }
