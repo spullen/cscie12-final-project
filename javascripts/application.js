@@ -1,7 +1,7 @@
 $(document).ready(function() {
   var pageId = $('body').attr('id');
   if(pageId !== '') {
-    $('#nav-' + pageId).addClass('selected');
+    $('#nav-' + pageId).addClass('nav-selected');
   }
 
   $('.fancybox').fancybox();
