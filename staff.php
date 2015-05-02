@@ -9,15 +9,15 @@
   </div>
 </div>
 <div class="grid-container staff-profile">
-  <div class="grid-25" style="border: 1px solid red;"><img src="" alt="" /></div>
+  <div class="grid-25" style="border: 1px solid red;"><img src="images/staff/staff1.jpg" alt="" /></div>
   <div class="grid-75" style="border: 1px solid blue;">SHOULD</div>
 </div>  
 <div class="grid-container staff-profile">  
-  <div class="grid-25" style="border: 1px solid green;"><img src="" alt="" /></div>
+  <div class="grid-25" style="border: 1px solid green;"><img src="images/staff/staff2.jpg" alt="" /></div>
   <div class="grid-75" style="border: 1px solid orange;">HERE</div>
 </div>  
 <div class="grid-container staff-profile">  
-  <div class="grid-25" style="border: 1px solid purple;"><img src="" alt="" /></div>
+  <div class="grid-25" style="border: 1px solid purple;"><img src="images/staff/staff3.jpg" alt="" /></div>
   <div class="grid-75" style="border: 1px solid brown;">Fill</div>
 </div>  
 <div class="grid-container">
@@ -26,19 +26,19 @@
   </div>
 </div>
 <div class="grid-container staff-profile">
-  <div class="grid-25" style="border: 1px solid red;"><img src="" alt="" /></div>
+  <div class="grid-25" style="border: 1px solid red;"><img src="images/staff/staff4.jpg" alt="" /></div>
   <div class="grid-75" style="border: 1px solid blue;">SHOULD</div>
 </div>  
 <div class="grid-container staff-profile">  
-  <div class="grid-25" style="border: 1px solid green;"><img src="" alt="" /></div>
+  <div class="grid-25" style="border: 1px solid green;"><img src="images/staff/staff5.jpg" alt="" /></div>
   <div class="grid-75" style="border: 1px solid orange;">HERE</div>
 </div>  
 <div class="grid-container staff-profile">  
-  <div class="grid-25" style="border: 1px solid purple;"><img src="" alt="" /></div>
+  <div class="grid-25" style="border: 1px solid purple;"><img src="images/staff/staff6.jpg" alt="" /></div>
   <div class="grid-75" style="border: 1px solid brown;">Fill</div>
 </div>
 <div class="grid-container staff-profile">  
-  <div class="grid-25" style="border: 1px solid purple;"><img src="" alt="" /></div>
+  <div class="grid-25" style="border: 1px solid purple;"><img src="images/staff/staff9.jpg" alt="" /></div>
   <div class="grid-75" style="border: 1px solid brown;">Fill</div>
 </div>
 <div class="grid-container">
@@ -47,11 +47,11 @@
   </div>
 </div>
 <div class="grid-container staff-profile">  
-  <div class="grid-25" style="border: 1px solid green;"><img src="" alt="" /></div>
-  <div class="grid-75" style="border: 1px solid orange;">HERE</div>
-</div>  
-<div class="grid-container staff-profile">  
-  <div class="grid-25" style="border: 1px solid purple;"><img src="" alt="" /></div>
+  <div class="grid-25" style="border: 1px solid purple;"><img src="images/staff/staff7.jpg" alt="" /></div>
   <div class="grid-75" style="border: 1px solid brown;">Fill</div>
 </div>
+<div class="grid-container staff-profile">  
+  <div class="grid-25" style="border: 1px solid green;"><img src="images/staff/staff8.jpg" alt="" /></div>
+  <div class="grid-75" style="border: 1px solid orange;">HERE</div>
+</div>  
 <?php include 'includes/footer.php' ?>
