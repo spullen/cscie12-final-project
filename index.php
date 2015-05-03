@@ -6,6 +6,13 @@
 <div class="grid-container">
   <div class="grid-50">
     <p>
+      To make an appointment call 617-888-9999 or <a href="appointment.php">request an appointment</a> online.
+    </p>
+    <p>
+      For over 20 years Cambridge Pediatric Dental has been serving Cambridge area families. We strive to provide only the best quality of care and service 
+      to ensure healthy oral health of your children. 
+    </p>
+    <p>
       Donec dapibus interdum lectus consectetur efficitur. Nunc dictum semper iaculis. Aliquam sollicitudin luctus arcu, eu tristique lectus ultrices quis. Fusce mollis lobortis pharetra. Vestibulum ut fringilla enim. Donec felis diam, sodales vel efficitur non, feugiat sit amet erat. Suspendisse nisl ex, convallis ut congue et, elementum ac diam. Morbi sagittis vulputate odio, euismod efficitur tortor hendrerit in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin ut pulvinar nisl.
     </p>
   </div>

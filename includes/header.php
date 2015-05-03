@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name=viewport content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
-  <title>Pediatric Dentist <?php if(isset($title)) { echo ' | ' . $title; } ?></title>
+  <title>Cambridge Pediatric Dental <?php if(isset($title)) { echo ' | ' . $title; } ?></title>
   <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/text.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/unsemantic.css" />
@@ -16,7 +16,7 @@
 <div class="grid-container">
   <div class="grid-100">
     <header>
-      <h1>Pediatric Dentist</h1>
+      <h1>Cambridge Pediatric Dental</h1>
     </header>
   </div>
   <div class="grid-100 header-information">
