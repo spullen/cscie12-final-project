@@ -1,10 +1,19 @@
 $(document).ready(function() {
+  $('.patients-slideshow').slick({
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2250,
+    speed: 1500
+  });
+  
   var pageId = $('body').attr('id');
   if(pageId !== '') {
     $('#nav-' + pageId).addClass('nav-selected');
   }
 
   $('.fancybox').fancybox();
+
+  
 
   if($('#map-container').length) {
     initializeMap();
