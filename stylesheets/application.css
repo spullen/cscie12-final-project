@@ -15,6 +15,26 @@ address {
   padding: 0;
 }
 
+.header-information {
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+.header-information address {
+  display: inline;
+  margin-bottom: 0;
+}
+
+.header-information .phone {
+  float: right;
+}
+
+@media (max-width: 867px) {
+  .header-information .phone {
+    float: left;
+  }
+}
+
 .nav-selected {
   font-weight: bold;
 }

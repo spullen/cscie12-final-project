@@ -6,11 +6,10 @@
 <div class="grid-container">
   <div class="grid-100">
     <h2>Contact Us</h2>
-
     <h3>Office Phone Number:</h3>
-    <p>(617) 888-9999</p>
+    <p>617-888-9999</p>
     <h3>Fax:</h3>
-    <p>(617) 999-8888</p>
+    <p>617-999-8888</p>
     <h3>Office Address</h3>
     <p>
       <address>
