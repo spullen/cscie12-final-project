@@ -7,8 +7,8 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/reset.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/text.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/unsemantic.css" />
+  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.11.4/themes/start/jquery-ui.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="stylesheets/pikaday.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/jquery.fancybox.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="stylesheets/application.css" />
 </head>

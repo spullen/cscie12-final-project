@@ -18,6 +18,13 @@ $(document).ready(function() {
   if($('#map-container').length) {
     initializeMap();
   }
+
+  var $appointmentDate = $('#appointment-date');
+  if($appointmentDate.length) {
+    $appointmentDate.datepicker({
+      dateFormat: 'mm/dd/yy'
+    });
+  }
 });
 
 function initializeMap() {
