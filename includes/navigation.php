@@ -1,6 +1,6 @@
 <div class="grid-container">
   <div class="grid-100">
-    <nav>
+    <nav id="main-navigation">
       <ul>
         <li id="nav-home"><a href="index.php">Home</a></li>
         <li id="nav-appointment"><a href="appointment.php">Request Appointment</a></li>
