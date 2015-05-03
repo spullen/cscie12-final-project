@@ -5,6 +5,12 @@
   padding: 0;
 }
 
+.hidden {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
 .nav-selected {
   font-weight: bold;
 }

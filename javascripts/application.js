@@ -5,15 +5,15 @@ $(document).ready(function() {
     autoplaySpeed: 2250,
     speed: 1500
   });
-  
+  // prevents the images from showing up for a split second when the page is rendered, but before slick takes over.
+  $('.patients-slideshow div').show();
+
   var pageId = $('body').attr('id');
   if(pageId !== '') {
     $('#nav-' + pageId).addClass('nav-selected');
   }
 
   $('.fancybox').fancybox();
-
-  
 
   if($('#map-container').length) {
     initializeMap();

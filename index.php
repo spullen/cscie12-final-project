@@ -12,11 +12,11 @@
   <div class="grid-50">
     <div class="patients-slideshow">
       <div><img src="images/patients/patient1.jpg"></div>
-      <div><img src="images/patients/patient2.jpg"></div>
-      <div><img src="images/patients/patient3.jpg"></div>
-      <div><img src="images/patients/patient4.jpg"></div>
-      <div><img src="images/patients/patient5.jpg"></div>
-      <div><img src="images/patients/patient6.jpg"></div>
+      <div class="hidden"><img src="images/patients/patient2.jpg"></div>
+      <div class="hidden"><img src="images/patients/patient3.jpg"></div>
+      <div class="hidden"><img src="images/patients/patient4.jpg"></div>
+      <div class="hidden"><img src="images/patients/patient5.jpg"></div>
+      <div class="hidden"><img src="images/patients/patient6.jpg"></div>
     </div>
   </div>
 </div>
