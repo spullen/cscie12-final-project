@@ -7,7 +7,7 @@
   <div class="grid-100">
     <h2>About Us</h2>
     <p>
-      Started in 2014 by Dr. Andrea Ware after graduating from Tufts Dental School. ...
+      Started in 1994 by Andrea Ware, DMD after graduating from Tufts Dental School. ...
       Serving the Faketown community for x years
       Dedicated to quality service your children
       Friendly environment

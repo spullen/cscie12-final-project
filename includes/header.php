@@ -13,4 +13,11 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/application.css" />
 </head>
 <body id="<?php echo $pageId; ?>">
+<div class="grid-container">
+  <div class="grid-100">
+    <header>
+      <h1>Pediatric Dentist</h1>
+    </header>
+  </div>
+</div>  
 <?php include 'includes/navigation.php' ?>

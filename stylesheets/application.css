@@ -1,3 +1,7 @@
+address {
+  font-style: normal;
+}
+
 #map-container {
   width: 100%;
   height: 400px;
@@ -27,4 +31,14 @@
 .staff-profile .image-container {
   padding-top: 6px;
   padding-bottom: 1em;
+}
+
+@media (max-width: 867px) {
+  .staff-profile .image-container {
+    text-align: center;
+  }
+
+  .staff-profile .bio h3 {
+    text-align: center;
+  }
 }
