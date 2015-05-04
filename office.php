@@ -3,7 +3,7 @@
   $pageId = 'office';  
 ?>
 <?php include 'includes/header.php' ?>
-<div class="grid-container gallery">
+<div class="grid-100 grid-parent gallery">
   <div class="grid-33 gallery-item">
     <a class="fancybox" rel="office" href="images/office/office1.jpg"><img src="images/office/office1_thumb.jpg" /></a>
   </div>
