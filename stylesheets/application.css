@@ -1,9 +1,17 @@
+body {
+  background-color: #8A70AA;
+}
+
 address {
   font-style: normal;
 }
 
 footer {
   color: #999;
+}
+
+hr {
+  border-color: #785A9D;
 }
 
 nav ul {
@@ -13,6 +21,13 @@ nav ul {
 
 nav li {
   margin-left: 0;
+}
+
+#wrapper {
+  background-color: #fff;
+  border-left: 2px solid #785A9D;
+  border-right: 2px solid #785A9D;
+  border-bottom: 2px solid #785A9D;
 }
 
 #main-navigation {
