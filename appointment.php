@@ -18,4 +18,15 @@
 
   <div id="available-appointments"></div>
 </div>
+
+<script id="available-appointment-tpl" type="text/x-handlebars-template">
+  <div class="available-appointment">
+    <form>
+      <strong>{{displayTime}}</strong>
+      <button>Request Appointment</button>
+      <input type="hidden" name="appointment-date" value="{{availableDate}}">
+    </form>
+  </div>
+</script>
+
 <?php include 'includes/footer.php' ?>

@@ -8,7 +8,7 @@
     array_push($times, date('m/d/Y H:i:s', $i));
   }
 
-  $timeIndices = array_rand($times, rand(5, 10));
+  $timeIndices = array_rand($times, rand(2, 7));
 
   $availabilities = [];
   foreach($timeIndices as $i) {

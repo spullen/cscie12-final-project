@@ -53,6 +53,9 @@ function requestAvailabilities(e) {
 
   currentDate.setHours(0, 0, 0, 0);
 
+  $availableAppointments = $('#available-appointments');
+  $availableAppointments.empty();
+
   if(appointmentDate < currentDate) {
     alert('Appointment date must be in the future');
   } else {
@@ -62,7 +65,33 @@ function requestAvailabilities(e) {
         appointmentDate: appointmentDateStr
       }
     }).done(function(response) {
-      console.log(response);
+      var tpl = Handlebars.compile($('#available-appointment-tpl').html());
+
+      $availableAppointments.append('<h3>Available Appointments</h3>');
+
+      $.each(response, function(i, time) {
+        time = new Date(time);
+
+        var hours = time.getHours(),
+            mins = time.getMinutes();
+
+        var ampm = 'AM';
+        if(hours >= 12) {
+          ampm = 'PM'
+        }
+
+        if(mins < 10) {
+          mins = '0' + mins;
+        }
+
+        hours = hours % 12 || 12;
+
+        var displayTime = hours + ':' + mins + ' ' + ampm;
+        
+        var html = tpl({displayTime: displayTime, availableDate: time});
+
+        $availableAppointments.append(html);
+      });
     });
   }
 }
