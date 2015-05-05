@@ -24,6 +24,8 @@ $(document).ready(function() {
     $appointmentDate.datepicker({
       dateFormat: 'mm/dd/yy'
     });
+
+    $appointmentDate.on('change', requestAvailabilities);
   }
 });
 
@@ -42,4 +44,25 @@ function initializeMap() {
       map: map,
       title: 'Pediatric Dentist Office'
   });
+}
+
+function requestAvailabilities(e) {
+  var currentDate = new Date(),
+      appointmentDateStr = e.target.value,
+      appointmentDate = new Date(appointmentDateStr);
+
+  currentDate.setHours(0, 0, 0, 0);
+
+  if(appointmentDate < currentDate) {
+    alert('Appointment date must be in the future');
+  } else {
+    $.ajax({
+      url: 'availabilities.php',
+      data: {
+        appointmentDate: appointmentDateStr
+      }
+    }).done(function(response) {
+      console.log(response);
+    });
+  }
 }
