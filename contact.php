@@ -12,7 +12,7 @@
   <h3>Office Address:</h3>
   <p>
     <address>
-      Pediatric Dentist<br>
+      Cambridge Pediatric Dental<br>
       123 Fake Street, Suite 100<br>
       Cambridge, Massachusetts 02138
     </address>
