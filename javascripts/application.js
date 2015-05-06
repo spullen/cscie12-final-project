@@ -60,6 +60,9 @@ $(document).ready(function() {
 
       var hasErrors = false;
 
+      $nameEl.parent().removeClass('form-error');
+      $phoneEl.parent().removeClass('form-error');
+
       if(name === undefined || name === '') {
         hasErrors = true;
         $nameEl.parent().addClass('form-error');
