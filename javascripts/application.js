@@ -26,6 +26,60 @@ $(document).ready(function() {
     });
 
     $appointmentDate.on('change', requestAvailabilities);
+
+    $('#available-appointments').on('click', '.request-btn', function(e) {
+      e.preventDefault();
+
+      var $form = $(e.target).parent();
+
+      var requestedTime = new Date($form.find('.available-appointment-date').val());
+
+      $('#confirm-request form')[0].reset();
+      
+      $.fancybox({
+          href: '#confirm-request', 
+          autoSize: false,
+          width: '25%',
+          height: 'auto'
+      });
+    });
+
+    $('#confirm-request form').on('submit', function(e) {
+      e.preventDefault();
+
+      var $nameEl = $('#request-name'),
+          $phoneEl = $('#request-phone'),
+          $emailEl = $('#request-email');
+
+      var name = $nameEl.val(),
+          phone = $phoneEl.val(),
+          email = $emailEl.val();
+
+      var hasErrors = false;
+
+      if(name === undefined || name === '') {
+        hasErrors = true;
+        $nameEl.parent().addClass('error');
+      }
+
+      if(phone === undefined || phone === '') {
+        hasErrors = true;
+        $phoneEl.parent().addClass('error');
+      }
+
+      if(!hasErrors) {
+        $.fancybox.close();
+
+        $('#appointment-availability-form').hide();
+        $('#available-appointments').empty();
+
+        $('#appointment-notification').noty({
+          text: 'Successfully submitted request. You should receive notification confirming your appointment within 1 business day. If not please call.',
+          theme: 'relax',
+          type: 'success'
+        });
+      }
+    });
   }
 });
 
@@ -53,11 +107,17 @@ function requestAvailabilities(e) {
 
   currentDate.setHours(0, 0, 0, 0);
 
+  $.noty.closeAll();
   $availableAppointments = $('#available-appointments');
   $availableAppointments.empty();
 
   if(appointmentDate < currentDate) {
-    alert('Appointment date must be in the future');
+    $('#appointment-notification').noty({
+      text: 'Appointment date must be in the future',
+      theme: 'relax',
+      type: 'error',
+      timeout: 5000
+    });
   } else {
     $.ajax({
       url: 'availabilities.php',
