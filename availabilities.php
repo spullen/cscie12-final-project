@@ -1,4 +1,9 @@
 <?php
+  /*
+    Note: This will just return random set of data. In a real application this would
+    be determined by data from the database. This is just to illustrate the interaction
+    between the frontend and backend.
+   */
 
   $start = strtotime($_GET['appointmentDate'] . " 07:00");
   $end = strtotime($_GET['appointmentDate'] . " 17:00");

@@ -18,7 +18,6 @@
 
   <div id="available-appointments"></div>
 </div>
-
 <script id="available-appointment-tpl" type="text/x-handlebars-template">
   <div class="available-appointment">
     <form>
@@ -28,5 +27,4 @@
     </form>
   </div>
 </script>
-
 <?php include 'includes/footer.php' ?>
