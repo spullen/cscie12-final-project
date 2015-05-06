@@ -35,6 +35,7 @@ $(document).ready(function() {
       var requestedTime = new Date($form.find('.available-appointment-date').val());
 
       $('#confirm-request form')[0].reset();
+      $('#confirm-request form > .form-error').removeClass('form-error');
       
       $.fancybox({
           href: '#confirm-request', 
