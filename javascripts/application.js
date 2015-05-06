@@ -39,6 +39,7 @@ $(document).ready(function() {
       
       $.fancybox({
           href: '#confirm-request', 
+          modal: true,
           autoSize: false,
           width: '25%',
           height: 'auto'
@@ -107,17 +108,18 @@ function initializeMap() {
 }
 
 function requestAvailabilities(e) {
-  var currentDate = new Date(),
+  var minDate = new Date(),
       appointmentDateStr = e.target.value,
       appointmentDate = new Date(appointmentDateStr);
 
-  currentDate.setHours(0, 0, 0, 0);
+  minDate.setDate(minDate.getDate() + 1);
+  minDate.setHours(0, 0, 0, 0);
 
   $.noty.closeAll();
   $availableAppointments = $('#available-appointments');
   $availableAppointments.empty();
 
-  if(appointmentDate < currentDate) {
+  if(appointmentDate < minDate) {
     $('#appointment-notification').noty({
       text: 'Appointment date must be in the future',
       theme: 'relax',
