@@ -81,6 +81,11 @@ $(document).ready(function() {
         });
       }
     });
+
+    $('#confirm-request form').on('click', '#cancel-request-btn', function(e) {
+      e.preventDefault();
+      $.fancybox.close();
+    });
   }
 });
 

@@ -12,7 +12,7 @@
 </div>
 <div class="grid-100" id="appointment-container">
   <div id="appointment-notification"></div>
-  
+
   <form id="appointment-availability-form" action="availabilities.php" method="GET">
     <label for="appointment-date">Appointment Date:</label>
     <input type="text" name="appointment-date" id="appointment-date" />
@@ -37,7 +37,8 @@
           <input type="text" id="request-email" name="request-email">
         </div>
         <div>
-          <input type="submit" value="Confirm">
+          <button type="submit">Confirm Request</button>
+          <button id="cancel-request-btn">Cancel</button>
         </div>
       </form>
     </div>
