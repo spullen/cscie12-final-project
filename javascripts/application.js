@@ -36,6 +36,7 @@ $(document).ready(function() {
 
       $('#confirm-request form')[0].reset();
       $('#confirm-request form > .form-error').removeClass('form-error');
+      $('#confirm-request form > #request-appointment-date').val(requestedTime);
       
       $.fancybox({
           href: '#confirm-request', 

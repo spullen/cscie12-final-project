@@ -4,7 +4,7 @@
 ?>
 <?php include 'includes/header.php' ?>
 <div class="grid-100">
-  <h1>Request Appointment</h1>
+  <h2>Request Appointment</h2>
   <p>
     <strong>Note:</strong> requesting an appointment does not guarantee that you will get one. 
     After submitting you will receive confirmation either by email or phone within 1 business day.
@@ -21,8 +21,7 @@
 
   <div class="hidden">
     <div id="confirm-request">
-      <h2>Confirm Request<h2>
-      
+      <h2>Confirm Request</h2>
       <form>
         <div>
           <label for="request-name">Name:</label>
@@ -36,6 +35,7 @@
           <label for="request-email">Email:</label>
           <input type="text" id="request-email" name="request-email">
         </div>
+        <input type="hidden" id="request-appointment-date" name="request-appointment-date" value="">
         <div>
           <button type="submit">Confirm Request</button>
           <button id="cancel-request-btn">Cancel</button>
