@@ -59,12 +59,12 @@ $(document).ready(function() {
 
       if(name === undefined || name === '') {
         hasErrors = true;
-        $nameEl.parent().addClass('error');
+        $nameEl.parent().addClass('form-error');
       }
 
       if(phone === undefined || phone === '') {
         hasErrors = true;
-        $phoneEl.parent().addClass('error');
+        $phoneEl.parent().addClass('form-error');
       }
 
       if(!hasErrors) {
