@@ -52,21 +52,29 @@ $(document).ready(function() {
       e.preventDefault();
 
       var $nameEl = $('#request-name'),
+          $patientNameEl = $('#request-patient-name'),
           $phoneEl = $('#request-phone'),
           $emailEl = $('#request-email');
 
       var name = $nameEl.val(),
+          patientName = $patientNameEl.val(),
           phone = $phoneEl.val(),
           email = $emailEl.val();
 
       var hasErrors = false;
 
       $nameEl.parent().removeClass('form-error');
+      $patientNameEl.parent().removeClass('form-error');
       $phoneEl.parent().removeClass('form-error');
 
       if(name === undefined || name === '') {
         hasErrors = true;
         $nameEl.parent().addClass('form-error');
+      }
+
+      if(patientName === undefined || patientName === '') {
+        hasErrors = true;
+        $patientNameEl.parent().addClass('form-error');
       }
 
       if(phone === undefined || phone === '') {

@@ -28,6 +28,10 @@
           <input type="text" id="request-name" name="request-name">
         </div>
         <div>
+          <label for="request-patient-name">Patient's Name:</label><br>
+          <input type="text" id="request-patient-name" name="request-patient-name">
+        </div>
+        <div>
           <label for="request-phone">Phone:</label><br>
           <input type="text" id="request-phone" name="request-phone">
         </div>
@@ -37,7 +41,7 @@
         </div>
         <input type="hidden" id="request-appointment-date" name="request-appointment-date" value="">
         <div class="form-actions">
-          <button class="btn btn-success" type="submit">Confirm Request</button>
+          <button class="btn btn-primary" type="submit">Confirm Request</button>
           <button class="btn btn-danger" id="cancel-request-btn">Cancel</button>
         </div>
       </form>
@@ -47,7 +51,7 @@
 <script id="available-appointment-tpl" type="text/x-handlebars-template">
   <div class="available-appointment">
     <form>
-      <button class="btn btn-info">Request Appointment</button>
+      <button class="btn btn-info request-btn">Request Appointment</button>
       <strong class="display-time">{{displayTime}}</strong>
       <input type="hidden" name="available-appointment-date" class="available-appointment-date" value="{{availableDate}}">
     </form>

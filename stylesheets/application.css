@@ -27,6 +27,18 @@ a:hover {
   color: #B6C5E9;
 }
 
+label {
+  font-size: 1.2em;
+}
+
+input {
+  height: 2em;
+  border: 1px solid #B6C5E9;
+  border-radius: 5px;
+  width: 25em;
+  font-size: inherit;
+}
+
 #wrapper {
   background-color: #fff;
   border-left: 2px solid #8A70AA;
@@ -77,6 +89,11 @@ a:hover {
   padding: 0;
 }
 
+#appointment-container h3 {
+  margin-top: 18px;
+  margin-bottom: 5px;
+}
+
 #contact-information h3 {
   font-size: 18px;
   margin-bottom: 5px;
@@ -90,6 +107,51 @@ a:hover {
 
 .spacer {
   margin-top: 1.25em;
+}
+
+.btn {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #FF8181;
+  border-color: #E25353;
+}
+
+.form-error {
+  color: #E25353;
+}
+
+.form-error input {
+  border: 1px solid #E25353;
+}
+
+.form-actions {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .header-separator {
@@ -111,6 +173,13 @@ a:hover {
   float: right;
 }
 
+.available-appointment {
+  width: 33%;
+  margin: 5px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
 .gallery-item {
   text-align: center;
   margin: 1em auto;
@@ -128,6 +197,10 @@ a:hover {
 @media (max-width: 867px) {
   .header-information .phone {
     float: left;
+  }
+
+  .available-appointment {
+    width: 95%;
   }
 
   .staff-profile .image-container {
