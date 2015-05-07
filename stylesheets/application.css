@@ -1,9 +1,13 @@
 body {
-  background-color: #8A70AA;
+  background-color: #BCB1D6;
 }
 
 address {
   font-style: normal;
+}
+
+h2 {
+
 }
 
 footer {
@@ -11,23 +15,30 @@ footer {
 }
 
 hr {
-  border-color: #785A9D;
+  border-color: #8A70AA;
 }
 
-nav ul {
-  list-style: none;
-  margin-bottom: 0;
+a {
+  color: #555893;
+  text-decoration: none;
 }
 
-nav li {
-  margin-left: 0;
+a:hover {
+  color: #B6C5E9;
 }
 
 #wrapper {
   background-color: #fff;
-  border-left: 2px solid #785A9D;
-  border-right: 2px solid #785A9D;
-  border-bottom: 2px solid #785A9D;
+  border-left: 2px solid #8A70AA;
+  border-right: 2px solid #8A70AA;
+  border-bottom: 2px solid #8A70AA;
+  padding: 0;
+}
+
+#main-header h1 {
+  font-size: 2.5em;
+  margin: 10px 0;
+  color: #8A70AA;
 }
 
 #main-navigation {
@@ -37,9 +48,12 @@ nav li {
 
 #main-navigation ul {
   margin-bottom: 1em;
+  list-style: none;
+  margin-bottom: 0;
 }
 
 #main-navigation ul li {
+  margin-left: 0;
   display: inline;
 }
 
@@ -50,9 +64,10 @@ nav li {
 }
 
 #main-navigation .nav-selected a,
-#main-navigation ul li a:hover { 
-  border-bottom: 1px solid #9B0707;
-  color: #9B0707;
+#main-navigation ul li a:hover {
+  font-weight: bold;
+  border-bottom: 1px solid #8A70AA;
+  color: #8A70AA;
 }
 
 #map-container {
@@ -70,6 +85,11 @@ nav li {
 
 .spacer {
   margin-top: 1.25em;
+}
+
+.header-separator {
+  margin: 2px 0;
+  border-top: 3px solid #8A70AA;
 }
 
 .header-information {

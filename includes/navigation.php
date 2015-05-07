@@ -1,3 +1,4 @@
+<hr class="header-separator">
 <div class="grid-100">
   <nav id="main-navigation">
     <ul>
@@ -13,3 +14,4 @@
     </ul>
   </nav>
 </div>
+<hr>

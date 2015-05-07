@@ -15,10 +15,11 @@
 <body id="<?php echo $pageId; ?>">
 <div class="grid-container" id="wrapper">
   <div class="grid-100">
-    <header>
+    <header id="main-header">
       <h1>Cambridge Pediatric Dental</h1>
     </header>
   </div>
+  <hr class="header-separator">
   <div class="grid-100 header-information">
     <address>123 Fake Street, Suite 100, Cambridge, MA 02138</address>
     <span class="phone">Phone: 617-888-9999 - Fax: 617-999-8888</span>

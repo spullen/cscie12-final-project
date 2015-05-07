@@ -24,15 +24,15 @@
       <h2>Confirm Request</h2>
       <form>
         <div>
-          <label for="request-name">Name:</label>
+          <label for="request-name">Name:</label><br>
           <input type="text" id="request-name" name="request-name">
         </div>
         <div>
-          <label for="request-phone">Phone:</label>
+          <label for="request-phone">Phone:</label><br>
           <input type="text" id="request-phone" name="request-phone">
         </div>
         <div>
-          <label for="request-email">Email:</label>
+          <label for="request-email">Email:</label><br>
           <input type="text" id="request-email" name="request-email">
         </div>
         <input type="hidden" id="request-appointment-date" name="request-appointment-date" value="">
@@ -47,8 +47,8 @@
 <script id="available-appointment-tpl" type="text/x-handlebars-template">
   <div class="available-appointment">
     <form>
-      <strong class="display-time">{{displayTime}}</strong>
       <button class="request-btn">Request Appointment</button>
+      <strong class="display-time">{{displayTime}}</strong>
       <input type="hidden" name="available-appointment-date" class="available-appointment-date" value="{{availableDate}}">
     </form>
   </div>
