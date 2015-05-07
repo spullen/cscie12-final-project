@@ -24,4 +24,5 @@
     <address>123 Fake Street, Suite 100, Cambridge, MA 02138</address>
     <span class="phone">Phone: 617-888-9999 - Fax: 617-999-8888</span>
   </div>
+  <hr class="header-separator">
 <?php include 'includes/navigation.php' ?>

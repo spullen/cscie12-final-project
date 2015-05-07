@@ -3,7 +3,7 @@
   $pageId = 'contact';
 ?>
 <?php include 'includes/header.php' ?>
-<div class="grid-100">
+<div class="grid-100" id="contact-information">
   <h2>Contact Us</h2>
   <h3>Office Phone Number:</h3>
   <p>617-888-9999</p>

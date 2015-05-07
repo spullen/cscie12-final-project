@@ -36,9 +36,9 @@
           <input type="text" id="request-email" name="request-email">
         </div>
         <input type="hidden" id="request-appointment-date" name="request-appointment-date" value="">
-        <div>
-          <button type="submit">Confirm Request</button>
-          <button id="cancel-request-btn">Cancel</button>
+        <div class="form-actions">
+          <button class="btn btn-success" type="submit">Confirm Request</button>
+          <button class="btn btn-danger" id="cancel-request-btn">Cancel</button>
         </div>
       </form>
     </div>
@@ -47,7 +47,7 @@
 <script id="available-appointment-tpl" type="text/x-handlebars-template">
   <div class="available-appointment">
     <form>
-      <button class="request-btn">Request Appointment</button>
+      <button class="btn btn-info">Request Appointment</button>
       <strong class="display-time">{{displayTime}}</strong>
       <input type="hidden" name="available-appointment-date" class="available-appointment-date" value="{{availableDate}}">
     </form>
