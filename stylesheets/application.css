@@ -180,6 +180,11 @@ input {
   border-bottom: 1px solid #ccc;
 }
 
+.available-appointment .display-time {
+  margin-left: 2em;
+  font-size: 1.1em;
+}
+
 .gallery-item {
   text-align: center;
   margin: 1em auto;
