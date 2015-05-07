@@ -2,6 +2,7 @@ $(document).ready(function() {
   $('.patients-slideshow').slick({
     arrows: false,
     autoplay: true,
+    pauseOnHover: false,
     autoplaySpeed: 2250,
     speed: 1500
   });
