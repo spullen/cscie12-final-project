@@ -149,6 +149,10 @@ input {
   border: 1px solid #E25353;
 }
 
+.form-group {
+  padding-top: 10px;
+}
+
 .form-actions {
   padding-top: 20px;
   padding-bottom: 10px;

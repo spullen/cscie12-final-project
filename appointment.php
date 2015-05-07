@@ -23,19 +23,19 @@
     <div id="confirm-request">
       <h2>Confirm Request</h2>
       <form>
-        <div>
+        <div class="form-group">
           <label for="request-name">Name:</label><br>
           <input type="text" id="request-name" name="request-name">
         </div>
-        <div>
+        <div class="form-group">
           <label for="request-patient-name">Patient's Name:</label><br>
           <input type="text" id="request-patient-name" name="request-patient-name">
         </div>
-        <div>
+        <div class="form-group">
           <label for="request-phone">Phone:</label><br>
           <input type="text" id="request-phone" name="request-phone">
         </div>
-        <div>
+        <div class="form-group">
           <label for="request-email">Email:</label><br>
           <input type="text" id="request-email" name="request-email">
         </div>
