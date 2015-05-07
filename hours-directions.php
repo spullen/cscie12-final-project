@@ -17,7 +17,7 @@
   <p>
     Our office will be <strong>closed</strong> on the following days:<br>
     Memorial Day<br>
-    Independence Day</br>
+    Independence Day<br>
     Labor Day<br>
     Halloween<br>
     Thanksgiving<br>
